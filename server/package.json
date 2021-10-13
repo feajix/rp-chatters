@@ -1,0 +1,30 @@
+{
+  "name": "rp-chatters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc && node ./dist/main.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feazom/rp-chatters.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Feazom/rp-chatters/issues"
+  },
+  "homepage": "https://github.com/Feazom/rp-chatters#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
